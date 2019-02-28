@@ -21,11 +21,7 @@
 -- Look in the examples directory of the source repository for some initial
 -- pointers on how to use this library.
 
-#if (defined (ghcjs_HOST_OS))
-module Data.Yaml {-# WARNING "GHCJS is not supported yet (will break at runtime once called)." #-}
-#else
 module Data.Yaml
-#endif
     ( -- * Encoding
       encode
     , encodeWith
